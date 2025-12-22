@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "furry-lil-creatures",
+	"version": "${version}",
+	"name": "Furry Lil Creatures",
+	"description": "First mod made by practice game developer KayTew and already bringing my lil furry ideas into Minecraft 1.21.6!! YIPPEE!!!",
+	"authors": [
+		"Kureikama"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/furry-lil-creatures/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"creatures.lil.furry.FurryLilCreatures"
+		],
+		"client": [
+			"creatures.lil.furry.FurryLilCreaturesClient"
+		],
+		"fabric-datagen": [
+			"creatures.lil.furry.FurryLilCreaturesDataGenerator"
+		]
+	},
+	"mixins": [
+		"furry-lil-creatures.mixins.json",
+		{
+			"config": "furry-lil-creatures.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
