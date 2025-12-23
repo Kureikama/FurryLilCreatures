@@ -3,7 +3,7 @@
 	"id": "furry-lil-creatures",
 	"version": "${version}",
 	"name": "Furry Lil Creatures",
-	"description": "First mod made by practice game developer KayTew and already bringing my lil furry ideas into Minecraft 1.21.6!! YIPPEE!!!",
+	"description": "Adds new creatures and items to deal with these creatures into 1.21.6!",
 	"authors": [
 		"Kureikama"
 	],
@@ -11,18 +11,18 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT License",
+	"license": "MIT",
 	"icon": "assets/furry-lil-creatures/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"creatures.lil.furry.FurryLilCreatures"
+			"kureikama.kaytew.lilfurrycreatures.FurryLilCreatures"
 		],
 		"client": [
-			"creatures.lil.furry.FurryLilCreaturesClient"
+			"kureikama.kaytew.lilfurrycreatures.FurryLilCreaturesClient"
 		],
 		"fabric-datagen": [
-			"creatures.lil.furry.FurryLilCreaturesDataGenerator"
+			"kureikama.kaytew.lilfurrycreatures.FurryLilCreaturesDataGenerator"
 		]
 	},
 	"mixins": [

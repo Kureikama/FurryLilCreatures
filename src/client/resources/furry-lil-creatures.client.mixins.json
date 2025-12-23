@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "creatures.lil.furry.mixin.client",
+	"package": "kureikama.kaytew.lilfurrycreatures.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"
