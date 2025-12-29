@@ -23,5 +23,6 @@ public class FurryLilCreatures implements ModInitializer {
 
         // Initializes ModItems, loading items from its static variables
         ModItems.initialize();
+        ModBlocks.initialize();
 	}
 }
