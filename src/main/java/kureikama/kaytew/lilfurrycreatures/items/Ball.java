@@ -1,5 +1,6 @@
-package kureikama.kaytew.lilfurrycreatures;
+package kureikama.kaytew.lilfurrycreatures.items;
 
+import kureikama.kaytew.lilfurrycreatures.FurryLilCreatures;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -9,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
 
-public class ModItems {
+public class Ball {
 
     public static Item register(
             String name,
