@@ -1,5 +1,7 @@
 package kureikama.kaytew.lilfurrycreatures;
 
+import kureikama.kaytew.lilfurrycreatures.blocks.NestingFloor;
+import kureikama.kaytew.lilfurrycreatures.items.Ball;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,7 +24,7 @@ public class FurryLilCreatures implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
         // Initializes ModItems, loading items from its static variables
-        ModItems.initialize();
-        ModBlocks.initialize();
+        Ball.initialize();
+        NestingFloor.initialize();
 	}
 }

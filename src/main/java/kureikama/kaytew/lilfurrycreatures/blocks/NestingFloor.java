@@ -1,6 +1,8 @@
-package kureikama.kaytew.lilfurrycreatures;
+package kureikama.kaytew.lilfurrycreatures.blocks;
 
 import java.util.function.Function;
+
+import kureikama.kaytew.lilfurrycreatures.FurryLilCreatures;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -11,7 +13,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
-public class ModBlocks {
+public class NestingFloor {
     private static Block register(
             String name,
             Function<AbstractBlock.Settings, Block> blockFactory,
